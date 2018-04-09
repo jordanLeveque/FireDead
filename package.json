@@ -4,6 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
+    "ghpages": "sh deploy.sh",
+    "deploy": "angular-cli-ghpages",
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
